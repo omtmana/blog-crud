@@ -1,0 +1,42 @@
+/* 
+Hex Codes: 
+Pale Pink: #d4afb9 
+Pastel Light Purple: #d1cfe2 
+Pastel Darker Purple: #9cadce 
+Pastel Moss Green: #7ec4cf 
+Pastel Dark Blue: #52b2cf 
+*/
+
+.blog-form-container {
+   /* border: 1px solid black; */
+   display: flex;
+   flex-direction: column;
+}
+
+.form-subject {
+   margin-bottom: 2em;
+   float: left;
+   /* margin-left: 1em; */
+   width: 50%;
+   height: 5vh;
+   border: 1px solid #52b2cf;
+   border-radius: 5px;
+}
+
+.form-body {
+   margin-bottom: 2vw;
+   float: left;
+   width: 99%;
+   height: 28vh;
+   border: 1px solid #52b2cf;
+   border-radius: 5px;
+}
+
+.form-button {
+   float: left;
+   width: 14vw;
+   height: 5vh;
+   background-color: #52b2cf;
+   border: white;
+   border-radius: 5px;
+}
