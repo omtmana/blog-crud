@@ -1,8 +1,8 @@
 import React from "react";
 import './BlogList.css'
 
-const BlogList = ({ data }) => {
-   const { blogSubject, blogBody } = data
+const BlogList = ({ dataPost }) => {
+   const { blogSubject, blogBody } = dataPost
 
    return (
       <div className="blogList">

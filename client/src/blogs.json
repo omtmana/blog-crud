@@ -1,0 +1,14 @@
+{
+  "blogs": [
+    {
+      "blogSubject": "Blog Number 1",
+      "blogBody": "Hello this is the content of my first ever blog post",
+      "id": 1
+    },
+    {
+      "blogSubject": "Blog Number 1",
+      "blogBody": "Hello this is the content of my first ever blog post",
+      "id": 2
+    }
+  ]
+}

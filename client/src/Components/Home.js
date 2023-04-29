@@ -12,10 +12,12 @@ const Home = () => {
    useEffect(() => {
       fetch("http://localhost:3000/blogs")
       .then((res) => res.json())
-      .then((blog) => setBlogPost(blog))
+      .then((newDataArray) => {setBlogPost(newDataArray)})
    }, [])
 
    console.log(blogPost)
+
+   // console.log('post',blogPost)
 
    const handleAddPost = (newPost) => {
       const updatedBlogPost = [...blogPost, newPost]
@@ -67,8 +69,8 @@ const Home = () => {
          </div>
          <div>
             {
-               blogPost.map((data) => {
-                  return <BlogList key={data.id} data={data}/>
+               blogPost.map((dataPost) => {
+                  return <BlogList key={dataPost.id} dataPost={dataPost}/>
                })
             }
          </div>
