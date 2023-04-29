@@ -12,3 +12,8 @@ Pastel Dark Blue: #52b2cf
   margin: 2em;
 }
 
+.app-title {
+  color: #d4afb9 ;
+  font-size: 5vw;
+  text-align: left;
+}

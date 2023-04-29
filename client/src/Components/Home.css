@@ -41,3 +41,9 @@ Pastel Dark Blue: #52b2cf
    border: white;
    border-radius: 5px;
 }
+
+.blog-title {
+   font-size: 5vw;
+   text-align: left;
+   color: #7ec4cf ;
+}

@@ -70,7 +70,7 @@ const Home = () => {
             </form>
          </div>
          <div className="home-blogs">
-            <h1> Blogs </h1>
+            <h1 className="blog-title" > Blogs </h1>
             <div className="home-blogs-container">
                {
                   blogPost.map((dataPost) => {
@@ -78,7 +78,6 @@ const Home = () => {
                   })
                }
             </div>
-
          </div>
       </div>
    )

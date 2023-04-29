@@ -6,8 +6,8 @@ const BlogList = ({ dataPost }) => {
 
    return (
       <div className="blog">
-         <h1> {blogSubject} </h1>
-         <p> {blogBody} </p>
+         <h1 className="blog-subject"> {blogSubject} </h1>
+         <p className="blog-body"> {blogBody} </p>
       </div>
    )
 }
