@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "blogSubject": "Blog 1",
+      "blogBody": "This is the body of my first blog"
+    },
+    {
+      "blogSubject": "Blog 2",
+      "blogBody": "This is the body of my second blog",
+      "id": 2
+    }
+  ]
+}

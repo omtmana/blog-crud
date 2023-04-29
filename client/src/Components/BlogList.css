@@ -6,3 +6,10 @@ Pastel Darker Purple: #9cadce
 Pastel Moss Green: #7ec4cf 
 Pastel Dark Blue: #52b2cf 
 */
+
+.blog {
+   border: 1px solid black;
+   margin-bottom: 4px;
+   width: 100%;
+   height: 100%;
+}

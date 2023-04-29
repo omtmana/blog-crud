@@ -11,6 +11,7 @@ Pastel Dark Blue: #52b2cf
    /* border: 1px solid black; */
    display: flex;
    flex-direction: column;
+   margin-bottom: 3em;
 }
 
 .form-subject {
